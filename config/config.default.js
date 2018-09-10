@@ -7,7 +7,17 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1536322891434_7209';
 
   // add your config here
-  config.middleware = [];
+  config.middleware = [
+    'printDate',
+    'forbidip',
+  ];
+
+  config.forbidip = {
+    forbidips: [
+      '127.0.0.1',
+      '192.168.11.8',
+    ],
+  };
 
   // api
   config.api = 'https://eggjs.org/zh-cn/basics/objects.html';
