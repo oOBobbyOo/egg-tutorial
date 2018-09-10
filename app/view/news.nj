@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="public/css/reset.css">
+  <title>news</title>
+</head>
+
+<body>
+  <h1>news page</h1>
+
+  <ul>
+    {% for item in list %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</body>
+
+</html>
