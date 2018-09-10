@@ -9,6 +9,9 @@ module.exports = appInfo => {
   // add your config here
   config.middleware = [];
 
+  // api
+  config.api = 'https://eggjs.org/zh-cn/basics/objects.html';
+
   // 配置模板引擎
   config.view = {
     defaultViewEngine: 'nunjucks',

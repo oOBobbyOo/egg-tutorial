@@ -14,7 +14,7 @@
 
   <ul>
     {% for item in list %}
-      <li>{{ item }}</li>
+      <li>title: {{ item.title }} time: {{ helper.formatTime(item.time)}}</li>
     {% endfor %}
   </ul>
 </body>
