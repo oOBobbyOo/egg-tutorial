@@ -87,6 +87,8 @@ app.js 和 agent.js 用于自定义启动时的初始化工作，可选，具体
 
 [egg-view-nunjucks](https://github.com/eggjs/egg-view-nunjucks)
 
+[中文文档](https://mozilla.github.io/nunjucks/cn/templating.html#part-d0678dc0cc4cc122)
+
 ```js
 npm i egg-view-nunjucks --save
 
@@ -106,6 +108,8 @@ exports.view = {
 ```
 
 [egg-view-ejs](https://github.com/eggjs/egg-view-ejs)
+
+[中文文档](https://ejs.bootcss.com/)
 
 ```js
 npm i egg-view-ejs --save
