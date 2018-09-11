@@ -14,7 +14,7 @@ module.exports = appInfo => {
 
   config.forbidip = {
     forbidips: [
-      '127.0.0.1',
+      // '127.0.0.1',
       '192.168.11.8',
     ],
   };
